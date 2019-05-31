@@ -8,10 +8,10 @@ You'll need to install [Homebridge](https://github.com/nfarina/homebridge) first
 sudo npm install -g homebridge
 ````
 
-Then, install `homebridge-vizio-soundbar-soundbar`:
+Then, install `homebridge-vizio-soundbar`:
 
 ````
-npm install homebridge-vizio-soundbar-soundbar
+sudo npm install -g homebridge-vizio-soundbar
 ````
 
 ## Setting Up
