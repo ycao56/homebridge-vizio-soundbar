@@ -1,0 +1,33 @@
+{
+  "name": "homebridge-vizio-soundbar",
+  "version": "1.0.0",
+  "description": "Vizio Soundbar Plugin for Homebridge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ycao56/homebridge-vizio-soundbar.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ycao56/homebridge-vizio-soundbar/issues",
+    "email": "geniuscao@gmail.com"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "homebridge",
+    "vizio",
+    "soundbar",
+    "smartcast"
+  ],
+  "engines": {
+    "node": ">=8.3.0",
+    "homebridge": ">=0.4.27"
+  },
+  "author": "Yu Cao",
+  "license": "MIT",
+  "dependencies": {
+    "vizio-smart-cast": "^1.3.0"
+  }
+}
