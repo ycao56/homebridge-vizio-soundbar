@@ -54,7 +54,7 @@ VizioSoundbar.prototype.getPowerState = function(callback) {
 
 		callback(null, isPowerOn);
 
-	});
+	}).catch(callback);
 
 }
 
@@ -88,9 +88,9 @@ VizioSoundbar.prototype.setPowerState = function(state, callback) {
                 var status = result.STATUS.RESULT;
                 var success = status == "SUCCESS" ? 1 : 0;
                 callback(null, success);
-            });
+            }).catch(callback);
         }
-	});
+	}).catch(callback);
 
 
 
