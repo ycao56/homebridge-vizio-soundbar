@@ -1,6 +1,6 @@
 {
   "name": "homebridge-vizio-soundbar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Vizio Soundbar Plugin for Homebridge",
   "main": "index.js",
   "scripts": {
